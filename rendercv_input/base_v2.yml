@@ -1,0 +1,281 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Dushyant Khosla
+  headline: AI Product Leader with 15+ years experience
+  location: Amsterdam, NL
+  email: dushyant.khosla@protonmail.com
+  phone: "+31685513022"
+  social_networks:
+    - network: LinkedIn
+      username: dushyant-khosla
+  sections:
+    professional_summary:
+      - bullet: Scaled AI/data products end-to-end — from POC to production — at two global consumer goods leaders, with a current focus on privacy-first GenAI applications
+      - bullet: Expert in partnering with management to define analytics strategy, promote adoption of ML/AI solutions, embed insights into decision processes and design frameworks to report impact on consumers, revenue, and equity
+      - bullet: Track record of translating complex model outputs into C-suite narratives and business decisions — including a simulation tool that reallocated a €30M marketing budget with measurable ROI lift.
+      - bullet: Led globally distributed teams of 10+ data scientists and engineers following Agile delivery practices, while managing external vendor relationships and budgets 
+      - bullet: Hands-on across the modern AI stack (MLOps, RAG, Agents, self-hosted LLMs) while actively mentoring analysts and teaching ML/AI at Masters level.
+    
+    experience:
+      - company: Clair 
+        position: Founder
+        start_date: 2025-10
+        end_date: present
+        location: Amsterdam, NL
+        highlights:
+        - Launched an analytics product for a UAE healthcare group combining automated KPI tracking with LLM-generated narratives — replacing manual interpretation with instant, contextual insights.
+      
+      - company: Middlesex University
+        position: Adjunct Faculty in AI & ML
+        start_date: 2024-11
+        end_date: present
+        location: Dubai, UAE
+        highlights:
+        - Module leader for the Masters' level course "Python, ML & AI for FinTech" teaching practical skills to build production AI systems in the financial services industry
+        - Deliver courses on "Business Analytics with PowerBI" and "Visual Intelligence" for MBA cohorts equipping future business leaders to craft robust analyses and effective narratives
+
+      - company: Philip Morris
+        position: Head of Analytics
+        start_date: 2022-09
+        end_date: 2025-09
+        location: Amsterdam, NL
+        highlights:
+          - Led a cross-functional, globally distributed team of 10+ data scientists, ML engineers, and analysts leveraging Agile delivery practices       
+          - Owned the analytics strategy and end-to-end data products lifecycle for Channel Mix Optimisation, Brand Equity Measurement, and Global Campaigns & Activations Performance tracking 
+          - Presented quarterly dashboards and performance reports to C-suite and regional leadership, translating complex model outputs into ROI narratives and actionable recommendations
+          - Cemented trusted partnerships with Acquisition, Strategy, and Marketing functions across regions while ensuring AI product adoption at scale
+      
+      - company: Philip Morris
+        position: Data Science Manager
+        start_date: 2020-02
+        end_date: 2022-09
+        location: Amsterdam, NL
+        highlights:
+          - Deployed "Voice of Consumer" using BERT and RoBERTa LLMs across 7 markets to surface consumer pain-points and perception gaps, driving a 30-point gap versus competition in brand equity scores for IQOS in key markets 
+          - Deployed "Dynamic Trade Segmentation" enabling the Commercial organisation to systematically prioritise retailers with a high potential for success, reducing false-positive promotions by 11% in DE and IT markets
+          - Managed external vendor relationships (IPSOS, Sprinklr, Publicis) including POs, budgets, expense tracking to ensure timely delivery of products and insights
+      
+      - company: Philip Morris
+        position: Senior Data Scientist
+        start_date: 2018-11
+        end_date: 2020-02
+        location: Amsterdam, NL
+        highlights:
+          - Built CRM propensity models (Acquisition, Retention, Conversion) for key EU markets — improving acquisition quality by 4% and reducing retention cost by 2% 
+          - Pioneered adoption of modern MLOps tools (Docker, Airflow, MLFlow) within the data science function, simplifying workflows and enabling automated retraining pipelines
+          - Founded and led a "ML Center of Excellence" educating 20+ business analysts on Big Data tools and Statistical Inference
+      
+      - company: Philip Morris
+        position: Data Scientist
+        start_date: 2017-09
+        end_date: 2018-11
+        location: Lausanne, Switzerland
+        highlights:
+          - Core developer of IQOS Launch Predictor, a time-series forecasting tool deployed globally to measure organic product demand and prioritise new market entry decisions for reduced-risk products 
+      
+      - company: Crunch Analytics
+        position: Staff Data Scientist
+        start_date: 2017-04
+        end_date: 2017-10
+        location: Ghent, Belgium
+        highlights:
+          - Delivered end-to-end ML projects across industries; Churn Prediction for a SaaS startup, SARIMAX-based Sales Forecasting for a national retailer, and Repeat Surgery Likelihood prediction for a hospital
+    
+      - company: Limeroad
+        position: Data Scientist
+        start_date: 2015-11
+        end_date: 2017-04
+        location: Gurgaon, India
+        highlights:
+          - Collaborated with Search and Personalization teams on recommendation algorithms and buyer behavior models for India's 5th largest e-commerce platform
+          - Built tools for A/B testing, Visitor Navigation analysis, and Campaign Frequency Optimization improving open/click/conversion rates by 12%
+      
+      - company: Walmart Labs
+        position: Senior Statistical Analyst
+        start_date: 2014-10
+        end_date: 2015-11
+        location: Bengaluru, India
+        highlights:
+          - Delivered Inventory Replenishment Optimisation tool, reducing stock costs by 2% for pilot products in the US market
+          - Led Cannibalisation Risk Analysis for new product launches using Monte Carlo simulation
+      
+      - company: Dell & AbsolutData
+        position: Data Analyst
+        start_date: 2009-09
+        end_date: 2013-09
+        location: India
+        highlights: 
+          - SQL databases, Excel reports, SAS modeling, Market Research
+
+    certifications:
+      - bullet: Building with Claude using the Anthropic API (2025), by [Anthropic](https://verify.skilljar.com/c/qd9gssvixxnc) 
+      - bullet: LangChain for LLM Application Development (2025), by [Deeplearning.AI](https://learn.deeplearning.ai/accomplishments/6a80bf72-6b9f-47d5-8433-cd0be1a3b571?usp=sharing) 
+      - bullet: Professional SCRUM Developer (2018), by [Scrum.org](https://www.scrum.org/user/343309)
+    skills:
+      - label: Programming Languages
+        details: Python, SQL, Javascript
+      - label: ML & AI Ops
+        details: Docker, Airflow, MLFlow
+      - label: Frameworks & Libraries
+        details: LangChain, FastAPI, PydanticAI
+      - label: Cloud Infrastructure
+        details: AWS, GCP
+      - label: Research Areas
+        details: GenAI (RAG, Agents), Self-hosted LLMs
+      - label: Data Visualization & Dashboarding
+        details: PowerBI, Streamlit
+    education:
+      - institution: Ghent University
+        area: Data Science for Business
+        degree: MSc
+        start_date: 2013-09
+        end_date: 2014-07
+        location: Ghent, Belgium
+        highlights:
+          - Thesis "Time-Series Clustering on Smart-Meter Data"
+      - institution: BITS - Pilani
+        area: Electronics Engineering
+        degree: B.E.
+        start_date: 2005-07
+        end_date: 2009-07
+        location: Dubai, UAE
+        highlights:
+          - Thesis "Hybrid Algorithms for Fingerprints Classification in Biometric Security Systems"
+    selected_honors:
+      - bullet: Full Marks Award (2020) by PMI for going above and beyond the call of duty in deploying a state-of-the-art solution for Retailer Relationship Management
+      - bullet: SPOT Award (2015) by Walmart Labs for outstanding individual performance in Q4-2014
+
+    
+design:
+  theme: sb2nov
+  page:
+    size: a4
+    top_margin: 1.5cm
+    bottom_margin: 1.5cm
+    left_margin: 1.5cm
+    right_margin: 1.5cm
+    show_footer: true
+    show_top_note: false
+  colors:
+    body: rgb(0, 0, 0)
+    name: rgb(36, 124, 210)
+    headline: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(36, 124, 210)
+    links: rgb(0, 0, 0)
+    footer: rgb(128, 128, 128)
+    top_note: rgb(128, 128, 128)
+  typography:
+    line_spacing: 0.6em
+    alignment: left
+    date_and_location_column_alignment: right
+    font_family:
+      body: New Computer Modern
+      name: New Computer Modern
+      headline: New Computer Modern
+      connections: New Computer Modern
+      section_titles: New Computer Modern
+    font_size:
+      body: 11pt
+      name: 24pt
+      headline: 12pt
+      connections: 10pt
+      section_titles: 1.2em
+    small_caps:
+      name: true
+      headline: false
+      connections: false
+      section_titles: true
+    bold:
+      name: true
+      headline: false
+      connections: false
+      section_titles: true
+  links:
+    underline: true
+    show_external_link_icon: false
+  header:
+    alignment: left
+    photo_width: 3.5cm
+    photo_position: left
+    photo_space_left: 0.4cm
+    photo_space_right: 0.4cm
+    space_below_name: 0.3cm
+    space_below_headline: 0.7cm
+    space_below_connections: 0.7cm
+    connections:
+      phone_number_format: national
+      hyperlink: true
+      show_icons: true
+      display_urls_instead_of_usernames: false
+      separator: •
+      space_between_connections: 0.3cm
+  section_titles:
+    type: with_full_line
+    line_thickness: 0.5pt
+    space_above: 0.7cm
+    space_below: 0.3cm
+  sections:
+    allow_page_break: true
+    space_between_regular_entries: 1.2em
+    space_between_text_based_entries: 0.3em
+    show_time_spans_in: []
+  entries:
+    date_and_location_width: 4.15cm
+    side_space: 0.2cm
+    space_between_columns: 0.1cm
+    allow_page_break: false
+    short_second_row: false
+    degree_width: 1cm
+    summary:
+      space_above: 0cm
+      space_left: 0cm
+    highlights:
+      bullet: ●
+      nested_bullet: ◦
+      space_left: 0.15cm
+      space_above: 0cm
+      space_between_items: 0cm
+      space_between_bullet_and_text: 0.5em
+  templates:
+    footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+    top_note: '*LAST_UPDATED CURRENT_DATE*'
+    single_date: MONTH_ABBREVIATION YEAR
+    date_range: START_DATE – END_DATE
+    time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+    one_line_entry:
+      main_column: '**LABEL:** DETAILS'
+    education_entry:
+      main_column: |-
+        **INSTITUTION**
+        *DEGREE* *in* *AREA*
+        SUMMARY
+        HIGHLIGHTS
+      degree_column:
+      date_and_location_column: |-
+        *LOCATION*
+        *DATE*
+    normal_entry:
+      main_column: |-
+        **NAME**
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        *LOCATION*
+        *DATE*
+    experience_entry:
+      main_column: |-
+        **POSITION**
+        *COMPANY*
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        *LOCATION*
+        *DATE*
+    publication_entry:
+      main_column: |-
+        **TITLE**
+        SUMMARY
+        AUTHORS
+        URL (JOURNAL)
+      date_and_location_column: DATE

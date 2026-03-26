@@ -1,0 +1,185 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.5/schema.json
+cv:
+  name: Dushyant Khosla
+  headline: Data Science leader and Gen AI educator with 15+ years of experience
+  location: Amsterdam, NL
+  email: dushyant.khosla@protonmail.com
+  phone: "+31685513022"
+  social_networks:
+    - network: LinkedIn
+      username: dushyantkhosla
+    - network: GitHub
+      username: dushyantkhosla
+  custom_connections:
+  sections:
+    professional_summary:
+      - bullet: 7+ years' experience in leading data science teams to deliver AI/ML projects with regional/global scope
+      - bullet: 15+ years' in building, deploying and optimising agile Data Products using cutting edge ML to fuel data-driven strategic planning at top-tier Retail firms like Walmart and Philip Morris.
+      - bullet: Hands-on power user of Big Data analysis and visualisation tools (Python, SQL, R, Spark, PowerBI, Tableau), and Cloud Computing Platforms (GCP, AWS, Azure)
+      - bullet: In-depth knowledge of core Data Mining + Forecasting algorithms and their application to massive data
+    experience:
+      - company: Clair 
+        position: Founder
+        date:
+        start_date: 2025-11
+        end_date: present
+        location: Amsterdam, NL
+        summary:
+        highlights:
+          - Developing LLM applications using Gen AI for clients in healthcare, legal and retail industries 
+          - Specializing in on-premise, self-hosted deployments of RAG systems and multi-agent workflows for privacy and security
+      - company: Middlesex University
+        position: Adjunct Faculty in AI & ML
+        date:
+        start_date: 2024-11
+        end_date: present
+        location: Dubai, UAE
+        summary:
+        highlights:
+          - Leader of the "Python AI & ML for FinTech" module for Masters students, covering topics from basic coding to building machine learning models and developing applications in Finance with Gen AI
+          - Teaching courses on 'Business Analytics with PowerBI' and delivering workshops on 'Visual Intelligence' for MBA students
+      - company: Philip Morris
+        position: Head of Analytics
+        date:
+        start_date: 2022-09
+        end_date: 2025-09
+        location: Amsterdam, NL
+        summary:
+        highlights:
+          - Led the cross-channel measurement of performance for global campaigns and consumer programs
+          - Spearheaded initiatives to measure holistic impact of new brand strategies and activations on top- and bottom-funnel
+          - Delivered a state-of-the-art tool for Channel Mix optimization and scenario planning leading to 5% improvement in marketing ROI
+      - company: Philip Morris
+        position: Data Science Manager
+        date:
+        start_date: 2020-02
+        end_date: 2022-09
+        location: Amsterdam, NL
+        summary:
+          Led a cross-functional team of 10 scientists, engineers and analysis to deliver and deploy 5 global data products, such as
+        highlights:
+          - Voice of Consumer, to analyze unstructured text data using Deep Learning models like BERT and RoBERTa to understand shifting consumer preferences, opinions and pain-points
+          - Dynamic Trade Segmentation, to identify POS with high potential for success in various indirect retail activities leading to a 7.2% increase in sales
+      - company: Philip Morris
+        position: Senior Data Scientist
+        date:
+        start_date: 2018-11
+        end_date: 2020-02
+        location: Amsterdam, NL
+        summary:
+        highlights:
+          - Implemented CRM models for key EU markets like Italy and Germany that contributed to improved acquisition quality by 4% and reduced retention by 2%
+          - Scouted and evangelized the use of new technologies such as Docker, Airflow and MLFlow to simplify data science workflows and automate tasks
+          - Established and drove a Center of Excellence for educating and upskilling business analysts on Big Data 
+      - company: Philip Morris
+        position: Data Scientist
+        date:
+        start_date: 2017-09
+        end_date: 2018-11
+        location: Lausanne, Switzerland
+        summary:
+          Core developer for the time-series forecasting tool, IQOS Launch Predictor, deployed to measure organic demand for PM products and prioritise new markets for deploying innovative reduced-risk products
+      - company: Crunch Analytics
+        position: Data Scientist
+        date:
+        start_date: 2017-04
+        end_date: 2017-10
+        location: Ghent, Belgium
+        summary:
+          As the Staff Data Scientist, I owned the end-to-end delivery of analysis and insights for several ML projects, such as
+        highlights:
+          - Churn prediction for a successful Belgian SaaS startup
+          - Sales Forecasting with advanced time-series methods like SARIMAX for a national retailer
+          - Repeat Surgery Likelihood prediction using healthcare data for a hospital with a 95% accuracy rate 
+      - company: Limeroad
+        position: Data Scientist
+        date:
+        start_date: 2015-11
+        end_date: 2017-04
+        location: Gurgaon, India
+        summary:
+          Collaborated with Search and Personalisation algorithms teams to deliver data products for India's 5th largest e-commerce platform
+        highlights:
+          - Predictive Intelligence for Repeat Purchase Behavior and Buyer Churn Analysis
+          - Website Performance reports, A/B Testing features, Visitor Navigation Analysis
+          - Consumer Personas and behavioral clustering to profile the traﬃc funnel
+          - Frequency Optimization to improve open, click and conversion rates 
+      - company: Walmart Labs
+        position: Senior Statistical Analyst
+        date:
+        start_date: 2014-10
+        end_date: 2015-11
+        location: Bengaluru, India
+        summary:
+          Delivered key projects on online and oﬄine retail data, such as
+        highlights:
+          - Replenishment Analysis to optimize inventory levels and reduce costs by 2% for pilot stores
+          - Modular Planning, to detect outliers in plans and recommend alternatives through Monte Carlo simulations
+          - Cannibalisation Risk Analysis for new product launches
+      - company: Dell
+        position: Senior Business Analyst
+        start_date: 2012-11
+        end_date: 2013-09
+        location: Bangalore, India
+        summary: 
+          Engineering and deployment of CRM models such as Segmentation (using K-Means Clustering) and Upsell (using Logistic Regression) in SAS
+        highlights: 
+          - Developed SAS macros and VBA tools to reduce KPI reporting times by 20%
+      - company: AbsolutData
+        position: Data Analyst
+        start_date: 2009-09
+        end_date: 2012-11
+        location: Gurgaon, India
+        summary: 
+          Delivered monthly performance reports using SQL databases and business intelligence dashboards using Excel on Market Research data for apparel retailers in USA
+    education:
+      - institution: Ghent University
+        area: Data Science for Business
+        degree: MSc
+        date:
+        start_date: 2013-09
+        end_date: 2014-07
+        location: Ghent, Belgium
+        summary:
+        highlights:
+          - 'Thesis: Time-Series Clustering on Smart-Meter Data and Improving Classification Accuracy Using Open Data Sources'
+          - 'GPA 16/20, graduated with Distinction'
+      - institution: BITS - Pilani
+        area: Electronics Engineering
+        degree: B.E.
+        date:
+        start_date: 2005-07
+        end_date: 2009-07
+        location: Dubai, UAE
+        summary:
+        highlights:
+          - 'Thesis: Hybrid Algorithms for Fingerprints Classification in Biometric Security Systems'
+          - 'GPA: 8.4/10, recipient of Scholarship'
+    selected_honors:
+      - bullet: Full Marks Award (2020) by PMI for going above and beyond the call of duty in deploying a state-of-the-art solution for Retailer Relationship Management
+      - bullet: SPOT Award (2015) by Walmart Labs for outstanding individual performance in Q4-2014
+    skills:
+      - label: Languages
+        details: Python, SQL, Javascript
+      - label: ML & AI Frameworks
+        details: sklearn, Pytorch, Langchain, LlamaIndex
+      - label: Infrastructure
+        details: AWS, GCP, Docker, Kubernetes
+      - label: Research Areas
+        details: Classification models, Time-series forecasting, Clustering, Self-hosted LLMs, Gen AI applications
+    certifications:
+      - bullet: Building with Claude using the Anthropic API (2025), by [Anthropic](https://verify.skilljar.com/c/qd9gssvixxnc) 
+      - bullet: LangChain for LLM Application Development (2025), by [Deeplearning.AI](https://learn.deeplearning.ai/accomplishments/6a80bf72-6b9f-47d5-8433-cd0be1a3b571?usp=sharing) 
+      - bullet: Professional SCRUM Developer (2018), by [Scrum.org](https://www.scrum.org/user/343309)
+      - bullet: Process Mining (2015), by [Technical University of Eindhoven](https://www.coursera.org/account/accomplishments/verify/VP2U3N6E4L)
+      - bullet: R Programming (2014), by [Johns Hopkins University](https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/972138~1558144/pdf)
+      - bullet: SAS Certified Base Programmer (2013), by The SAS Institute
+    publications:
+      - title: 'Fingerprint Identification in Biometric Security Systems'
+        authors:
+          - '*Lourde RM*'
+          - Dushyant Khosla
+        journal: International Journal of Computer and Electrical Engineering 2010
+        date: 2010-09
+    invited_talks:
+      - reversed_number: Enterprise-Ready Machine Learning — [SwissAI.org](https://www.youtube.com/watch?v=eXHOzxjDD1o)
