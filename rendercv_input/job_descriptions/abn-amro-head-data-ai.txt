@@ -1,0 +1,61 @@
+About the job
+As Head of Data and AI at ABN AMRO Verzekeringen (AAV) in Zwolle, you will lead our transformation into a data- and AI-driven entity. In this role, you will shape the future of our company and be a supporter of change at the heart of our organisation. Doing so, you will help us deliver faster service, make smarter decisions and provide real impact for our customers.
+
+What you are going to do
+
+ABN AMRO Verzekeringen is a joint venture between ABN AMRO Bank and NN Group. This unique position combines the distribution strength of ABN AMRO Bank with the scale, insurance expertise and innovation power of NN Group. In this role, you define how data and AI accelerate our strategic ambitions and translate them into practical results. From faster claims processing to smarter pricing and better risk insights, your work improves customer experience while strengthening performance. As a member of the Management Team, you influence decisions at the highest level and represent ABN AMRO Verzekeringen within the broader NN Group data and AI ecosystem.
+
+Key responsibilities:
+
+Develop and deliver the organisation-wide data strategy and AI roadmap, translating strategic priorities into measurable improvements in customer journeys, operational efficiency and financial outcomes
+Build and lead a central Data and AI domain of approximately 28 FTE by integrating teams from Commercial & Operations, Finance and Data Delivery into one aligned structure with clear governance, priorities and performance standards
+Oversee and further develop BI reporting and management information as an integral part of our data‑driven decision‑making framework
+Lead enterprise‑wide data management, covering data architecture, lifecycle and metadata management, with strong foundations in modern data‑warehousing, lakehouse technologies and data virtualisation
+Identify, prioritise and scale high-impact AI use cases, including generative AI applications such as automated claims documentation and decision support, guiding them from pilot to full operational implementation
+Establish and safeguard data governance, data quality standards and responsible AI frameworks in close collaboration with IT, Risk, Compliance and the Data Protection Officer, ensuring regulatory compliance and ethical application
+Act as a strategic MT sparring partner and as a representative towards our shareholders at NN Group and ABN AMRO Bank, supervisory authorities and other stakeholders, aligning interests and securing support for key Data and AI investments
+
+What we offer you
+
+We are supporters of transformation and committed to driving positive change for the future. At our company, we foster a values-based culture and support you to develop your talents in an open and inclusive work environment. Our employment benefits are designed to support you in maintaining a well-balanced professional life and help you reach your full potential. This way, we can shape a brighter future together. We offer you:
+
+A salary between €7,892 to €11,274 gross based on 36 hours, depending on your knowledge and experience
+A 13th-month and holiday allowance, paid with your monthly salary
+27 vacation days for a 5-day working week and one Diversity Day
+A modern pension administered by BeFrank
+Plenty of training and learning opportunities
+Flexibal mobility options: a company car, public transport pass or a mobility budget
+Allowances for setting up your home office and for internet use
+
+We offer hybrid working conditions. In consultation with your team, you’ll determine where and when you work. Your official workplace is Zwolle.
+
+Who you are
+
+You believe in progress powered by technology and guided by values. Data and AI are viewed as strategic assets, and you take responsibility for leveraging them in a way that is ethical, scalable and impactful. Rather than being intimidated by change, you embrace it. You create clarity, bring people together and maintain momentum, even in a complex stakeholder environment. Ready to be a supporter of change at the executive level, you want to help shape the next phase of our organisation. You also have:
+
+You operate at an academic level in both thinking and execution
+At least 6 years of leadership experience in a comparable role
+Proven experience in developing and delivering data strategies and AI roadmaps with demonstrable business impact in complex organisations
+Experience leading and building multidisciplinary Data & AI teams, fostering a culture of ownership, performance and continuous learning
+Strong knowledge of data governance, data quality and responsible AI with the ability to translate this into practical frameworks and informed decisions
+The ability to navigate complex stakeholder environments with confidence and diplomatic skill, including board-level and shareholder dynamics
+The ability to communicate complex AI and data concepts clearly in Dutch and English, and to speak and write Dutch fluently
+You combine conceptual thinking and analytical intelligence with decisiveness and a strong results‑oriented mindset
+
+Unsure if you meet 100% of the criteria? We encourage you to apply anyway. We are excited to learn about your unique qualities.
+
+Who you will work with
+
+You are part of ABN AMRO Verzekeringen’s Management Team and report directly to the CEO. The MT combines sharp strategic discussions with mutual respect and a strong focus on results; direct when needed, supportive where possible.
+
+Your domain comprises multidisciplinary professionals in data science, data engineering, governance and product ownership. The data teams are relatively young and innovation-driven, while the broader organisation includes experienced insurance professionals. Bridging these worlds and guiding the company through change is a key part of your role.
+
+Become a supporter of change
+
+Are you excited about this vacancy? Do you think you would be a good fit for ABN Amro Verzekeringen, NN Group and the team? Then we invite you to apply. We are eager to learn more about who you are, what motivates you and what you can contribute.
+
+Any questions?
+
+For questions about the vacancy or recruitment process, feel free to contact Jarmo Fernhout email at Jarmo.fernhout@nn-group.com.
+
+This is a permanent position. We are not open to interim or freelance assignments and/or candidates, nor to agency acquisitions.
