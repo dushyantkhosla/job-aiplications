@@ -6,236 +6,107 @@ license: MIT
 
 # CV Evaluator for AI / Data Roles (2026 Standard)
 
-## 🎯 Purpose
+## Purpose
 
-This skill evaluates a candidate CV against a given Job Description (JD) for **mid-to-senior AI, Data Science, and AI Product roles**.
-
-It simulates:
-1. **ATS screening (keyword + structure match)**
-2. **Recruiter 6–10 second scan**
-3. **Hiring manager evaluation**
+Evaluate a candidate CV against a given Job Description (JD) for mid-to-senior AI, Data Science, and AI Product roles. Simulate three lenses: ATS screening (keyword + structure match), recruiter 6–10 second scan, and hiring manager evaluation.
 
 ---
 
-## 📥 Input
+## Inputs
 
-Provide:
-- `cv`: Candidate CV (plain text or structured)
-- `jd`: Job description
+- `cv`: Candidate CV — provided as YAML (RenderCV schema). Read `cv.sections` for structured content.
+- `jd`: Job description (text).
 
 ---
 
-## 📤 Output
+## Output Schema
 
-Return:
+Return exactly this YAML block. No text outside it.
 
 ```yaml
 score: <1-10>
 ats_score: <0-100%>
-verdict: <hire | maybe | reject>
+verdict: <hire | consider | reject>
 strengths:
-  - ...
+    - ...
 gaps:
-  - ...
+    - ...
 must_fix:
-  - ...
+    - ...
 nice_to_improve:
-  - ...
+    - ...
 rewrite_suggestions:
-  - before: "..."
-    after: "..."
+    - before: "..."
+      after: "..."
 ```
 
-🧠 Evaluation Framework
+---
 
-🔴 1. MUST HAVES (Weight: 50%)
+## Evaluation Framework
 
-Score each from 1–10:
+### 1. Must-Haves (Weight: 50%)
 
-1. Impact-driven bullets
-Uses metrics (%, €, $, scale)
-Shows outcomes, not responsibilities
+Score each criterion from 1–10:
 
-Good: Improved ROI by 5% through optimization model
-Bad: Responsible for building models
+1. **Impact-driven bullets** — uses metrics (%, €, $, scale); shows outcomes not responsibilities.
+    - Good: "Improved ROI by 5% through optimization model"
+    - Bad: "Responsible for building models"
 
-2. AI + Human Readability
-- ATS keyword alignment with JD
-- Natural language, not keyword stuffing
+2. **AI + Human Readability** — ATS keyword alignment with JD; natural language, not keyword stuffing. Check for: AI products, stakeholders, ROI/business value, adoption, ML lifecycle/MLOps.
 
-Check for:
+3. **Strong Top Section** — clear positioning in first 5–6 lines. Must answer: Who are you? What do you specialize in? What impact do you drive?
 
-- AI products
-- Stakeholders
-- ROI / business value
-- Adoption
-- ML lifecycle / MLOps
+4. **Clear Specialization** — candidate is positioned as one of: AI Product Leader, Data Science Leader, or ML Engineering Leader. Not a generic generalist.
 
-3. Strong Top Section
-- Clear positioning in first 5–6 lines
-- Answers:
-  - Who are you?
-  - What do you specialize in?
-  - What impact do you drive?
+5. **Skills in Context** — skills reinforced in experience bullets; tools tied to outcomes.
 
-4. Clear Specialization
-- Candidate is positioned as ONE of:
-  - AI Product Leader
-  - Data Science Leader
-  - ML Engineering Leader
+### 2. Good-to-Haves (Weight: 30%)
 
-NOT a generic generalist
+1. **AI Fluency** — GenAI, LLMs, MLOps, production systems.
+2. **Business Impact Framing** — revenue, ROI, efficiency, decision-making explicitly referenced.
+3. **Tailoring to JD** — keywords and phrasing match role; relevant experience prioritized.
+4. **Clean Formatting (ATS-safe)** — simple structure, no visual/formatting complexity.
+5. **Proof of Work** — GitHub, portfolio, or deployed systems.
 
-5. Skills in Context
+### 3. Must-Avoids (Penalty: up to -3 points)
 
-- Skills reinforced in experience bullets
-- Tools tied to outcomes
+Apply -1 to -2 per violation:
+
+- Responsibility-based bullets ("Responsible for…", "Worked on…")
+- Generic summary ("Looking for a challenging role…")
+- Weak verbs overused ("Supported", "Assisted", "Helped")
+- Keyword stuffing — skill lists with no context
+- Overly vague statements — no metrics, no outcomes
 
 ---
 
-🟡 2. GOOD TO HAVES (Weight: 30%)
+## Scoring Formula
 
-1. AI Fluency
-- GenAI, LLMs, MLOps, production systems
+```
+final_score = (must_have_avg * 0.5) + (good_to_have_avg * 0.3) - penalties
+```
 
-2. Business Impact Framing
-- Talks about:
-  - Revenue
-  - ROI
-  - Efficiency
-  - Decision-making
+Normalize to minimum 1, maximum 10.
 
-3. Tailoring to JD
-- Keywords and phrasing match role
-- Relevant experience prioritized
+**ATS Score:** Evaluate keyword match vs. JD, role alignment, and structure clarity.
 
-4. Clean Formatting (ATS-safe)
-- Simple structure
-- No visual/formatting complexity
+**Verdict:**
 
-5. Proof of Work
-- GitHub, portfolio, deployed systems
-
---- 
-
-3. MUST AVOID (Penalty: up to -3 points)
-
-Apply penalties:
-
--1 to -2 each:
-
-- Responsibility-based bullets
-  - “Responsible for…”
-  - “Worked on…”
-- Generic summary
-  - “Looking for a challenging role…”
-- Weak verbs
-  - “Supported”, “Assisted”, “Helped” (overused)
-- Keyword stuffing
-  - Skill lists with no context
-- Overly vague statements
-  - No metrics, no outcomes
+- `hire` — clear positioning, strong impact, direct relevance
+- `consider` — some relevance, weak differentiation
+- `reject` — generic, no clear fit, no impact
 
 ---
 
-⚙️ SCORING LOGIC
+## Feedback Generation Rules
 
-Step 1: Compute scores
-- Must Have average → weight 50%
-- Good to Have average → weight 30%
-- Penalties → subtract directly
-
-Step 2: Final Score
-`final_score = (must_have * 0.5) + (good_to_have * 0.3) - penalties`
-
-Normalize to:
-
-- Minimum: 1
-- Maximum: 10
-
----
-
-🧪 SIMULATION LOGIC
-
-1. ATS Score (0–100%)
-
-Evaluate:
-- Keyword match vs JD
-- Role alignment
-- Structure clarity
-
-2. Recruiter Verdict
-
-Based on:
-HIRE
-- Clear positioning
-- Strong impact
-- Direct relevance
-
-MAYBE
-- Some relevance
-- Weak differentiation
-
-REJECT
-- Generic
-- No clear fit
-- No impact
-
----
-
-🧾 FEEDBACK GENERATION RULES
-
-Strengths
-- What clearly aligns with JD
-- What stands out positively
-
-Gaps
-- Missing keywords
-- Weak positioning
-- Lack of metrics or ownership
-
-Must Fix (High Priority)
-- Things blocking interviews
-- ATS failures
-- Positioning issues
-
-Nice to Improve
-- Differentiators
-- Enhancements
-- Rewrite Suggestions
-
-Provide 2–5 concrete rewrites:
+- **Strengths:** What clearly aligns with the JD; what stands out positively.
+- **Gaps:** Missing keywords, weak positioning, lack of metrics or ownership.
+- **Must Fix:** Things blocking interviews — ATS failures, positioning issues.
+- **Nice to Improve:** Differentiators and enhancements.
+- **Rewrite Suggestions:** Provide 2–5 concrete before/after rewrites. Example:
 
 ```yaml
 - before: "Led analytics projects"
   after: "Led analytics initiatives improving marketing ROI by 5% across global campaigns"
-```
-
-FINAL OUTPUT EXAMPLE
-
-```yaml
-score: 8.9
-ats_score: 88%
-verdict: hire
-
-strengths:
-  - Strong AI product positioning
-  - Clear business impact with metrics
-  - Good alignment with stakeholder requirements
-
-gaps:
-  - Limited mention of change management
-  - Weak proof of adoption in some roles
-
-must_fix:
-  - Add explicit adoption / business usage signals
-  - Strengthen stakeholder ownership language
-
-nice_to_improve:
-  - Add portfolio or GitHub examples
-  - Include more AI lifecycle details
-
-rewrite_suggestions:
-  - before: "Worked on ML models"
-    after: "Developed and deployed ML models improving forecast accuracy by 18%"
 ```
