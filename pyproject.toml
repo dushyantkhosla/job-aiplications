@@ -1,0 +1,13 @@
+[project]
+name = "job-aiplications"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "lmstudio>=1.5.0",
+    "pydantic-ai>=1.72.0",
+    "pyyaml>=6.0.3",
+    "rendercv[all]>=2.8",
+    "scikit-learn>=1.5.0",
+]

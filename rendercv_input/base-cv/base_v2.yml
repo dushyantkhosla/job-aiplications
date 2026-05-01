@@ -10,11 +10,11 @@ cv:
       username: dushyant-khosla
   sections:
     professional_summary:
-      - bullet: Scaled AI/data products end-to-end — from POC to production — at two global consumer goods leaders, with a current focus on privacy-first GenAI applications
-      - bullet: Expert in partnering with management to define analytics strategy, promote adoption of ML/AI solutions, embed insights into decision processes and design frameworks to report impact on consumers, revenue, and equity
-      - bullet: Track record of translating complex model outputs into C-suite narratives and business decisions — including a simulation tool that reallocated a €30M marketing budget with measurable ROI lift.
-      - bullet: Led globally distributed teams of 10+ data scientists and engineers following Agile delivery practices, while managing external vendor relationships and budgets 
-      - bullet: Hands-on across the modern AI stack (MLOps, RAG, Agents, self-hosted LLMs) while actively mentoring analysts and teaching ML/AI at Masters level.
+      - bullet: Led globally distributed engineering teams of 10+ data scientists and engineers at Fortune 500 companies, delivering production-grade data platforms serving millions of users
+      - bullet: Hands-on software engineer with deep expertise in Python, Golang, and building scalable data architectures using Kubernetes, Docker, and cloud infrastructure (AWS, GCP)
+      - bullet: Strong track record of building, mentoring, and developing high-performing engineering teams while driving adoption of Agile delivery practices
+      - bullet: Scaled AI/data products end-to-end — from POC to production — with focus on performance, reliability, and maintainability
+      - bullet: Expert in translating complex technical outputs into C-suite narratives and business decisions — including a simulation tool that reallocated a €30M marketing budget with measurable ROI lift
     
     experience:
       - company: Clair 
@@ -40,8 +40,9 @@ cv:
         end_date: 2025-09
         location: Amsterdam, NL
         highlights:
-          - Led a cross-functional, globally distributed team of 10+ data scientists, ML engineers, and analysts leveraging Agile delivery practices       
-          - Owned the analytics strategy and end-to-end data products lifecycle for Channel Mix Optimisation, Brand Equity Measurement, and Global Campaigns & Activations Performance tracking 
+          - Led a cross-functional, globally distributed team of 10+ data scientists, ML engineers, and analysts leveraging Agile delivery practices, deploying production-grade data pipelines on Kubernetes clusters
+          - Owned the analytics strategy and end-to-end data products lifecycle for Channel Mix Optimisation, Brand Equity Measurement, and Global Campaigns & Activations Performance tracking, handling petabyte-scale data across markets
+          - Built and maintained data platforms using Python, SQL, and modern MLOps tooling (Docker, Airflow, MLFlow) to ensure scalable, reliable model serving
           - Presented quarterly dashboards and performance reports to C-suite and regional leadership, translating complex model outputs into ROI narratives and actionable recommendations
           - Cemented trusted partnerships with Acquisition, Strategy, and Marketing functions across regions while ensuring AI product adoption at scale
       
@@ -51,8 +52,9 @@ cv:
         end_date: 2022-09
         location: Amsterdam, NL
         highlights:
-          - Deployed "Voice of Consumer" using BERT and RoBERTa LLMs across 7 markets to surface consumer pain-points and perception gaps, driving a 30-point gap versus competition in brand equity scores for IQOS in key markets 
-          - Deployed "Dynamic Trade Segmentation" enabling the Commercial organisation to systematically prioritise retailers with a high potential for success, reducing false-positive promotions by 11% in DE and IT markets
+          - Deployed "Voice of Consumer" using BERT and RoBERTa LLMs across 7 markets to surface consumer pain-points and perception gaps, driving a 30-point gap versus competition in brand equity scores for IQOS in key markets, processing millions of customer records via Spark and SQL pipelines
+          - Deployed "Dynamic Trade Segmentation" enabling the Commercial organisation to systematically prioritise retailers with a high potential for success, reducing false-positive promotions by 11% in DE and IT markets using Python-based predictive models in production Docker containers
+          - Built and maintained ETL pipelines using Airflow and SQL to feed downstream analytics and BI tools (PowerBI, Superset), ensuring data consistency across markets
           - Managed external vendor relationships (IPSOS, Sprinklr, Publicis) including POs, budgets, expense tracking to ensure timely delivery of products and insights
       
       - company: Philip Morris
